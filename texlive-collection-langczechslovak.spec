@@ -39,3 +39,12 @@ Support for typesetting Czech/Slovak.
 %build
 
 %install
+
+
+%changelog
+* Fri Feb 24 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120224-1
++ Revision: 780381
+- Update to latest release.
+- Import texlive-collection-langczechslovak
+- Import texlive-collection-langczechslovak
+
