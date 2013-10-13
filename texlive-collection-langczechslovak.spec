@@ -1,4 +1,4 @@
-# revision 14727
+# revision 30372
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-collection-langczechslovak
 Epoch:		1
-Version:	20120224
+Version:	20131013
 Release:	1
 Summary:	Czech/Slovak
 Group:		Publishing
@@ -16,18 +16,24 @@ Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/collection-langcz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
+Requires:	texlive-collection-basic
+Requires:	texlive-collection-latex
+Requires:	texlive-babel-czech
+Requires:	texlive-babel-slovak
 Requires:	texlive-cs
 Requires:	texlive-csbulletin
 Requires:	texlive-cslatex
 Requires:	texlive-csplain
-Requires:	texlive-vlna
+Requires:	texlive-cstex
 Requires:	texlive-hyphen-czech
 Requires:	texlive-hyphen-slovak
-Requires:	texlive-collection-basic
-Requires:	texlive-collection-latex
+Requires:	texlive-vlna
+Requires:	texlive-lshort-czech
+Requires:	texlive-lshort-slovak
+Requires:	texlive-texlive-cz
 
 %description
-Support for typesetting Czech/Slovak.
+Support for Czech/Slovak.
 
 #-----------------------------------------------------------------------
 %files
@@ -39,12 +45,3 @@ Support for typesetting Czech/Slovak.
 %build
 
 %install
-
-
-%changelog
-* Fri Feb 24 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120224-1
-+ Revision: 780381
-- Update to latest release.
-- Import texlive-collection-langczechslovak
-- Import texlive-collection-langczechslovak
-
