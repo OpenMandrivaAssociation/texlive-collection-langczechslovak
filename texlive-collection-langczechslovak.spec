@@ -1,4 +1,4 @@
-# revision 30372
+# revision 32550
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,8 +6,8 @@
 # catalog-version undef
 Name:		texlive-collection-langczechslovak
 Epoch:		1
-Version:	20131013
-Release:	5
+Version:	20140215
+Release:	1
 Summary:	Czech/Slovak
 Group:		Publishing
 URL:		http://tug.org/texlive
@@ -20,6 +20,7 @@ Requires:	texlive-collection-basic
 Requires:	texlive-collection-latex
 Requires:	texlive-babel-czech
 Requires:	texlive-babel-slovak
+Requires:	texlive-cnbwp
 Requires:	texlive-cs
 Requires:	texlive-csbulletin
 Requires:	texlive-cslatex
