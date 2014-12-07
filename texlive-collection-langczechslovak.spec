@@ -7,7 +7,7 @@
 Name:		texlive-collection-langczechslovak
 Epoch:		1
 Version:	20140215
-Release:	3
+Release:	4
 Summary:	Czech/Slovak
 Group:		Publishing
 URL:		http://tug.org/texlive
